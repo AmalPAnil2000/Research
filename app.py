@@ -10,7 +10,7 @@ st.markdown("""
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
     .main {
-        background-image: url('https://www.skillnetinc.com/wp-content/uploads/2023/10/AI-Chatbot-implementation-1366X600.webp'); 
+        background-image: url('https://cdn.pixabay.com/photo/2016/09/27/23/03/guitar-1699501_960_720.jpg'); 
         background-size: cover;
         padding: 30px;
         color: white;
@@ -86,7 +86,7 @@ def generate_content(prompt):
         return f"Error: {response.status_code} - {response.text}"
 
 def main():
-    st.markdown("<div class='title'>ThBotX AI</div>", unsafe_allow_html=True)
+    st.markdown("<div class='title'>RESECHER BOT</div>", unsafe_allow_html=True)
     st.write("Enter your content topic or prompt below:")
     
     prompt = st.text_area("Prompt", "")
